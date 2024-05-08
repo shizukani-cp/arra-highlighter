@@ -1,0 +1,25 @@
+{
+  "name": "arra-highlighter",
+  "displayName": "Arra highlighter",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "arra",
+      "aliases": ["arra", "arra"],
+      "extensions": [".arr"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "arra",
+      "scopeName": "",
+      "path": "./syntaxes/arra.tmLanguage.json"
+    }]
+  }
+}
