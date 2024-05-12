@@ -14,11 +14,11 @@
             "patterns": [
                 {
                     "name": "keyword.control.arra",
-                    "match": "\\b(?<=(^|\\,))(switch|case|loop|end|attr|call|ref|module|struct)(?=$|\\,)\\b"
+                    "match": "\\b(?<=(^|\\,))(switch|case|loop|end|attr|call|ref|module|struct|function|return|null)(?=$|\\,)\\b"
                 },
                 {
                     "name":"comment.block.arra",
-                    "match":"(?<=(^|\\,))\\s+#.*(?=$|\\,)"
+                    "match":"(?<=(^|\\,))\\s*#.*$"
                 }
             ]
         },
