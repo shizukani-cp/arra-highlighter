@@ -14,7 +14,7 @@
             "patterns": [
                 {
                     "name": "keyword.control.arra",
-                    "match": "\\b(?<=(^|\\,))(switch|case|loop|end|attr|call|ref|module)(?=$|\\,)\\b"
+                    "match": "\\b(?<=(^|\\,))(switch|case|loop|end|attr|call|ref|module|struct)(?=$|\\,)\\b"
                 },
                 {
                     "name":"comment.block.arra",
