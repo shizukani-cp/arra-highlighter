@@ -19,6 +19,10 @@
                 {
                     "name":"comment.block.arra",
                     "match":"(?<=(^|\\,))\\s*#.*$"
+                },
+                {
+                    "name":"constant.language.arra",
+                    "match":"\\b(null|true|false)\\b"
                 }
             ]
         },
